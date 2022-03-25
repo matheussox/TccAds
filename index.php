@@ -60,7 +60,7 @@
     <center>
       <spam class="credit">
         <h5>TRABALHO DE CONCLUSÃO DE CURSO <br> ANÁLISE E DESENVOLVIMENTO DE SISTEMAS </h5>
-        <p> Site Desenvolvido por Matheus Câmara da Silva <br> & <br> Frank Cristopher Aguilar Riera.</p>
+        <p> Desenvolvido por Matheus Câmara da Silva <br> & <br> Frank Cristopher Aguilar Riera.</p>
       </spam>
     </center>
     <center>
