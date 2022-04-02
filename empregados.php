@@ -37,7 +37,7 @@
 </head>
 
 <body class="bg-light">
-  <h1> EMPREGADOS CADASTRADOS NO SISTEMA </h1>
+  <h1> EMPREGADOS <br> CADASTRADOS NO SISTEMA </h1>
   <br>
   <div>
   <img src="imagens\work.png" width="450" height="400" alt="computer"> </center>
@@ -100,18 +100,16 @@
   
   <!-- BOTÃO CADASTRO -->
   <br>
-  <button type="button" class="btn btn-primary">
-    <a href="cadastrar-empregado.php" class="btn btn-primary" type="button" name="submit"> CADASTRAR NOVO EMPREGADO </a>
-  </button>
-  
+  <a href="cadastrar-empregado.php" class="btn btn-primary" role="button" data-bs-toggle="button">CADASTRAR NOVO EMPREGADO</a>
   <br><br><br>
 
+  <!-- RODAPÉ -->
   <div class="bottom-container">
   <h3>EmpreSys 1.0</h3>
   <spam class="credit">
-    <h5>TRABALHO DE CONCLUSÃO DE CURSO <br> ANÁLISE E DESENVOLVIMENTO DE SISTEMAS </h5>
     <p> Desenvolvido por Matheus Câmara da Silva <br> & <br> Frank Cristopher Aguilar Riera.</p>
   </spam>
+    <p>TRABALHO DE CONCLUSÃO DE CURSO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS </p>
     <p>© 2021 - TODOS OS DIREITOS RESERVADOS</p>
   </div>
 

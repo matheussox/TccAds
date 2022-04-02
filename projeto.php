@@ -115,18 +115,14 @@
   </div>
 
   <br><br>
-  <div class="bottom-container">
-    <center>
-      <h3>EmpreSys 1.0</h3>
-    </center>
-    <center>
-      <spam class="credit">
-        <p> Desenvolvido por Matheus Câmara & <br> Almir Junior.</p>
-      </spam>
-    </center>
-    <center>
-      <p>© 2021 - TODOS OS DIREITOS RESERVADOS</p>
-    </center>
+   <!-- RODAPÉ -->
+   <div class="bottom-container">
+  <h3>EmpreSys 1.0</h3>
+  <spam class="credit">
+    <p> Desenvolvido por Matheus Câmara da Silva <br> & <br> Frank Cristopher Aguilar Riera.</p>
+  </spam>
+    <p>TRABALHO DE CONCLUSÃO DE CURSO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS </p>
+    <p>© 2021 - TODOS OS DIREITOS RESERVADOS</p>
   </div>
 
 </body>

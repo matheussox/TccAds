@@ -1,16 +1,13 @@
 <!doctype html>
-<html class="body" lang="pt-br">
-
+<html lang="pt-br">
 <head>
-    <meta charset="utf-8">
-    <title>EmpreSys 1.0 - DEPENDENTES</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Righteous&family=Roboto+Mono:wght@700&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EmpreSys 1.0 - DEPENDENTES</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,19 +36,16 @@
   </nav>
 </head>
 
+<body class="bg-light">
+  <h1> DEPENDENTES <br> CADASTRADOS NO SISTEMA </h1>
   <br>
-  <center> <h1> DEPENDENTES CADASTRADOS NO SISTEMA </h1></center>
-  <br>
-
-<center> <img src="imagens\work.png" width="450" height="400" alt="computer"></center>
-<br><br><br>
-</head>
-
-<br><br><br> 
+  <div>
+  <img src="imagens\work.png" width="450" height="400" alt="computer"> </center>
+  </div>
+ <br><br><br>
 
 <body>
 <table class="table table-striped">
-
 <thead align="center">
     <tr>
       <th scope="col">NOME</th>
@@ -63,6 +57,7 @@
     </tr>
 </thead>
 
+<!-- CÓDIGO CONEXÃO C/ BD -->
 <tbody>
 
     <?php
@@ -108,20 +103,20 @@ mysqli_close($conn);
 </tbody>
 </table>
 <br>
+<!-- BOTÃO CADASTRO -->
+<br>
+  <a href="cadastrar-dependentes.php" class="btn btn-primary" role="button" data-bs-toggle="button">CADASTRAR NOVO DEPENDENTE</a>
+  <br><br><br>
 
-<center>
-<button><a href="cadastrar-dependentes.php" class="btn btn-primary" type="button" name="submit"> CADASTRAR NOVO DEPENDENTE </a></button>
-</center>
-
- 
-
-<br><br><br>    
+<!-- RODAPÉ -->
 <div class="bottom-container">
-<center><h3>EmpreSys 1.0</h3></center>
-<center><spam class="credit"><p> Desenvolvido por Matheus Câmara & <br> Almir Junior.</p></spam></center>
-<center><p>© 2021 - TODOS OS DIREITOS RESERVADOS</p></center>
-</div>
-
+  <h3>EmpreSys 1.0</h3>
+  <spam class="credit">
+    <p> Desenvolvido por Matheus Câmara da Silva <br> & <br> Frank Cristopher Aguilar Riera.</p>
+  </spam>
+    <p>TRABALHO DE CONCLUSÃO DE CURSO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS </p>
+    <p>© 2021 - TODOS OS DIREITOS RESERVADOS</p>
+  </div>
 </body>
 
 </html>

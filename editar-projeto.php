@@ -111,18 +111,19 @@ $custo = $_GET['idcusto'];
   </div>
   <br><br>
   <div class="bottom-container">
-    <center>
-      <h3>EmpreSys 1.0</h3>
-    </center>
-    <center>
-      <spam class="credit">
-        <p> Desenvolvido por Matheus Câmara & <br> Almir Junior.</p>
-      </spam>
-    </center>
-    <center>
-      <p>© 2021 - TODOS OS DIREITOS RESERVADOS</p>
-    </center>
-  </div>
+                                                <center>
+                                                    <h3>EmpreSys 1.0</h3>
+                                                </center>
+                                                <center>
+                                                    <spam class="credit">
+                                                        <p> Desenvolvido por Matheus Câmara & <br> Almir Junior.</p>
+                                                    </spam>
+                                                </center>
+                                                <center>
+                                                    <p>© 2021 - TODOS OS DIREITOS RESERVADOS</p>
+                                                </center>
+                                            </div>
+
 
   <br>
 
