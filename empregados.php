@@ -31,6 +31,9 @@
         <a class="nav-item nav-link" href="projeto.php">
           <p>PROJETOS</p>
         </a>
+        <a class="nav-item nav-link" href="logout.php">
+          <p>SAIR</p>
+        </a>
       </div>
     </div>
   </nav>
